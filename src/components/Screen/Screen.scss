@@ -1,0 +1,31 @@
+.Screen {
+  background: url(../../imgs/faultycamera-6e2g_GardMw-unsplash.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  width: 75vw;
+  height: 50vh;
+  position: relative;
+  margin-left: 12.5vw;
+  margin-top: 10vh;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "Empty NameDiv Buttons";
+}
+
+.NameDiv {
+  grid-area: NameDiv;
+}
+
+.DevName {
+  position: relative;
+  top: 8vh;
+  font-size: 4rem;
+}
+
+.OcupationTitle {
+  font-size: 3rem;
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+}
