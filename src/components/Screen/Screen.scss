@@ -17,6 +17,10 @@
   grid-area: NameDiv;
 }
 
+.ButtonBay {
+  grid-area: Buttons;
+}
+
 .DevName {
   position: relative;
   top: 8vh;
@@ -28,4 +32,13 @@
   position: relative;
   top: 10rem;
   left: 10rem;
+}
+
+.ScreenFolder {
+  grid-area: NameDiv;
+  position: absolute;
+  margin-top: 2rem;
+  width: 160%;
+  height: 100%;
+  left: -10vw;
 }

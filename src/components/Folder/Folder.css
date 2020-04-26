@@ -1,0 +1,81 @@
+.outsideFolder {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px rgba(95, 95, 95, 0.692) solid;
+  z-index: 2;
+}
+
+.folderTopBar {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+
+.folderTopBar .folderTitle {
+  margin-left: 4rem;
+}
+
+.folderTopBar .folderClose {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  padding-top: 0.3rem;
+}
+
+.folderFullDownBox {
+  width: 100%;
+  height: 38vh;
+  background-color: #161616;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.folderMainContent {
+  background-color: #252525;
+  width: 80%;
+  height: 85%;
+}
+
+.folderBottomBar {
+  width: 100%;
+  height: 1.5rem;
+  background-color: #3d3d3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.folderBottomBar .folderBottomBarNItems {
+  margin-left: 0.5rem;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=Folder.css.map */

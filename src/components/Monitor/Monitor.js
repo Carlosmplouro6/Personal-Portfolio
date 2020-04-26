@@ -2,13 +2,16 @@ import React from "react";
 import "./Monitor.css";
 import monitor from "../../imgs/monitor.jpg";
 import Screen from "../Screen/Screen";
+import { PortfolioProvider } from "../../context/PortfolioContext";
 
 const Monitor = () => {
   return (
-    <div>
-      <img className="monitor" src={monitor} alt="Computer Monitor" />
-      <Screen />
-    </div>
+    <PortfolioProvider>
+      <div>
+        <img className="monitor" src={monitor} alt="Computer Monitor" />
+        <Screen />
+      </div>
+    </PortfolioProvider>
   );
 };
 

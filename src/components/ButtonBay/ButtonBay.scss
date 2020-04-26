@@ -1,0 +1,16 @@
+.ButtonContainer {
+  padding-top: 1.5vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .Button {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    .ButtonName {
+      margin: 0;
+      margin-left: 5px;
+      padding: 0;
+      font-size: 12px;
+    }
+  }
+}
