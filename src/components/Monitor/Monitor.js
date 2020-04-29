@@ -1,6 +1,6 @@
 import React from "react";
 import "./Monitor.css";
-import monitor from "../../imgs/monitor.jpg";
+import monitor from "../../imgs/MonitorPortfolio.png";
 import Screen from "../Screen/Screen";
 import { PortfolioProvider } from "../../context/PortfolioContext";
 
