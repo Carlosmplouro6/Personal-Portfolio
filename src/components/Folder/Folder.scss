@@ -28,6 +28,17 @@
     padding-top: 0.3rem;
   }
 }
+.leftfolderTopbar {
+  display: flex;
+  .folderBack {
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    margin-right: 0.5rem;
+    padding: 0.3rem;
+    padding-top: 0.3rem;
+  }
+}
 
 .folderFullDownBox {
   width: 100%;

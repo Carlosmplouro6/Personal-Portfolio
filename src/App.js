@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 import Monitor from "./components/Monitor/Monitor";
-import { PortfolioContext } from "./context/PortfolioContext";
+import { PortfolioProvider } from "./context/PortfolioContext";
 import "./fonts/segoe-ui.otf";
 
 function App() {
   return (
-    <PortfolioContext.Provider>
+    <PortfolioProvider>
       <div className="App">
         <Monitor />
       </div>
-    </PortfolioContext.Provider>
+    </PortfolioProvider>
   );
 }
 

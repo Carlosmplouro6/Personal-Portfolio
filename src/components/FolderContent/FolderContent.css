@@ -1,11 +1,14 @@
 .folderLines {
   width: 100%;
-  .folderLineContainer:hover {
-    background-color: rgba(255, 255, 255, 0.116);
-  }
+}
+
+.folderLines .folderLineContainer:hover {
+  background-color: rgba(255, 255, 255, 0.116);
 }
 
 .folderLineContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.3rem 0;
   width: 100%;
@@ -28,3 +31,4 @@
   width: 1.3rem;
   height: 1.3rem;
 }
+/*# sourceMappingURL=FolderContent.css.map */

@@ -40,6 +40,21 @@
   padding-top: 0.3rem;
 }
 
+.leftfolderTopbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leftfolderTopbar .folderBack {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  padding-top: 0.3rem;
+}
+
 .folderFullDownBox {
   width: 100%;
   height: 56vh;

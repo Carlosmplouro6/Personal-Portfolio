@@ -1,14 +1,35 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
+import "./FolderContent.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const FolderContent = () => {
-  const { folderContent } = useContext(PortfolioContext);
+  const {
+    folderContent,
+    setopenFolder,
+    setFolderContent,
+    setLastFolderContent,
+  } = useContext(PortfolioContext);
+
+  function SetFolder(newFolderContent) {
+    setLastFolderContent(folderContent);
+    setopenFolder(true);
+    setFolderContent(newFolderContent);
+  }
 
   return (
     <div>
       {folderContent.map((content, index) => (
-        <div key={index}>
-          <span>{content.type}</span> <span>{content.name}</span>
+        <div
+          className="folderLines"
+          key={index}
+          onClick={() => {
+            SetFolder(content.inside);
+          }}
+        >
+          <div className="folderLineContainer">
+            <div className={content.type}></div>{" "}
+            <div className="subfolderName">{content.name}</div>
+          </div>
         </div>
       ))}
     </div>

@@ -20,6 +20,13 @@ const ButtonBay = () => {
             {
               type: "folder",
               name: "CoronaFocus",
+              inside: [
+                {
+                  type: "txt",
+                  name: "About.txt",
+                },
+                { type: "txt", name: "Stack.txt" },
+              ],
             },
             {
               type: "folder",
