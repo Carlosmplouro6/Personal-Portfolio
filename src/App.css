@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "segoe";
+  src: local("segoe"), url(./fonts/segoe-ui.otf) format("truetype");
+}
+
 .App {
+  font-family: segoe, Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   width: 100%;
   height: 100%;

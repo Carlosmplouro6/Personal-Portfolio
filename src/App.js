@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Monitor from "./components/Monitor/Monitor";
 import { PortfolioContext } from "./context/PortfolioContext";
+import "./fonts/segoe-ui.otf";
 
 function App() {
   return (

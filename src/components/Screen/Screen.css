@@ -12,30 +12,41 @@
       grid-template-areas: "Empty Empty NameDiv Buttons";
 }
 
-.NameDiv {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: NameDiv;
-}
-
 .ButtonBay {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: Buttons;
 }
 
+.NameDiv {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: NameDiv;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200%;
+  margin-left: -50%;
+}
+
 .DevName {
   position: relative;
-  top: 8vh;
-  left: -2rem;
+  left: -5vw;
   font-size: 4rem;
 }
 
 .OcupationTitle {
   font-size: 3rem;
-  position: relative;
-  top: 10rem;
-  left: 5rem;
 }
 
 .ScreenFolder {
@@ -43,9 +54,9 @@
   -ms-grid-column: 3;
   grid-area: NameDiv;
   position: absolute;
+  left: -30vw;
   margin-top: 2rem;
-  width: 160%;
-  height: 100%;
-  left: -10vw;
+  width: 60vw;
+  height: 60vh;
 }
 /*# sourceMappingURL=Screen.css.map */

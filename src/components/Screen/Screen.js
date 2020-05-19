@@ -5,7 +5,7 @@ import Folder from "../Folder/Folder";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Screen = () => {
-  const [openFolder, setopenFolder] = useContext(PortfolioContext);
+  const { openFolder } = useContext(PortfolioContext);
 
   return (
     <div className="Screen">

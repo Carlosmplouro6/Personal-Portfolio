@@ -4,15 +4,34 @@ import "./ButtonBay.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const ButtonBay = () => {
-  const [openFolder, setopenFolder] = useContext(PortfolioContext);
+  const { setopenFolder, setFolderContent } = useContext(PortfolioContext);
 
-  function SetFolder() {
+  function SetFolder(folderContent) {
     setopenFolder(true);
+    setFolderContent(folderContent);
   }
 
   return (
     <div className="ButtonContainer">
-      <div className="Button" onClick={() => SetFolder()}>
+      <div
+        className="Button"
+        onClick={() =>
+          SetFolder([
+            {
+              type: "folder",
+              name: "CoronaFocus",
+            },
+            {
+              type: "folder",
+              name: "Consequat",
+            },
+            {
+              type: "txt",
+              name: "LourixPlans",
+            },
+          ])
+        }
+      >
         <svg
           className="Folder"
           fill="#000000"

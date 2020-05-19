@@ -10,33 +10,35 @@
   grid-template-areas: "Empty Empty NameDiv Buttons";
 }
 
-.NameDiv {
-  grid-area: NameDiv;
-}
-
 .ButtonBay {
   grid-area: Buttons;
 }
 
+.NameDiv {
+  grid-area: NameDiv;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200%;
+  margin-left: -50%;
+}
+
 .DevName {
   position: relative;
-  top: 8vh;
-  left: -2rem;
+  left: -5vw;
   font-size: 4rem;
 }
 
 .OcupationTitle {
   font-size: 3rem;
-  position: relative;
-  top: 10rem;
-  left: 5rem;
 }
 
 .ScreenFolder {
   grid-area: NameDiv;
   position: absolute;
+  left: -30vw;
   margin-top: 2rem;
-  width: 160%;
-  height: 100%;
-  left: -10vw;
+  width: 60vw;
+  height: 60vh;
 }
