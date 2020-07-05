@@ -3,6 +3,8 @@ import "./Folder.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
 import FolderContent from "../FolderContent/FolderContent";
 
+import leftArrow from "../../imgs/leftArrow.png";
+
 const Folder = () => {
   const {
     setopenFolder,
@@ -31,7 +33,11 @@ const Folder = () => {
         <div className="folderTopBar">
           <div className="leftfolderTopbar">
             <button className="folderBack" onClick={() => backFolder()}>
-              ----
+              <img
+                className="folderBackArrow"
+                src={leftArrow}
+                alt="Left Arrow"
+              />
             </button>
             <p className="folderTitle">Projects</p>
           </div>

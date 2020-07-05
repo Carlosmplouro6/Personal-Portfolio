@@ -25,12 +25,25 @@ const ButtonBay = () => {
                   type: "txt",
                   name: "About.txt",
                 },
-                { type: "txt", name: "Stack.txt" },
+                {
+                  type: "txt",
+                  name: "Stack.txt",
+                },
               ],
             },
             {
               type: "folder",
               name: "Consequat",
+              inside: [
+                {
+                  type: "txt",
+                  name: "About.txt",
+                },
+                {
+                  type: "txt",
+                  name: "Stack.txt",
+                },
+              ],
             },
             {
               type: "txt",
@@ -48,15 +61,79 @@ const ButtonBay = () => {
           height="50px"
         >
           <path
-            fill="Brown"
-            stroke="White"
+            fill=" #e6cb73"
+            stroke="black"
             strokeMiterlimit="10"
             strokeWidth="1"
             d="M26 4L6 4 6 27 18 29.5 18 27 24 27 24 15 26 13z"
           />
           <path
             fill="none"
-            stroke="White"
+            stroke="black"
+            strokeMiterlimit="10"
+            strokeWidth="1"
+            d="M18 27L18 17.5 16 15.5 16 6.5 6 4"
+          />
+        </svg>
+        <p className="ButtonName">Projects</p>
+      </div>
+      <div
+        className="Button"
+        onClick={() =>
+          SetFolder([
+            {
+              type: "folder",
+              name: "CoronaFocus",
+              inside: [
+                {
+                  type: "txt",
+                  name: "About.txt",
+                },
+                {
+                  type: "txt",
+                  name: "Stack.txt",
+                },
+              ],
+            },
+            {
+              type: "folder",
+              name: "Consequat",
+              inside: [
+                {
+                  type: "txt",
+                  name: "About.txt",
+                },
+                {
+                  type: "txt",
+                  name: "Stack.txt",
+                },
+              ],
+            },
+            {
+              type: "txt",
+              name: "LourixPlans",
+            },
+          ])
+        }
+      >
+        <svg
+          className="Folder"
+          fill="#000000"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          width="50px"
+          height="50px"
+        >
+          <path
+            fill=" #e6cb73"
+            stroke="black"
+            strokeMiterlimit="10"
+            strokeWidth="1"
+            d="M26 4L6 4 6 27 18 29.5 18 27 24 27 24 15 26 13z"
+          />
+          <path
+            fill="none"
+            stroke="black"
             strokeMiterlimit="10"
             strokeWidth="1"
             d="M18 27L18 17.5 16 15.5 16 6.5 6 4"

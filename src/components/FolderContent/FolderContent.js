@@ -27,7 +27,7 @@ const FolderContent = () => {
           }}
         >
           <div className="folderLineContainer">
-            <div className={content.type}></div>{" "}
+            <div className={content.type}></div>
             <div className="subfolderName">{content.name}</div>
           </div>
         </div>
