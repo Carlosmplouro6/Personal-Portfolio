@@ -39,7 +39,7 @@ const Folder = () => {
                 alt="Left Arrow"
               />
             </button>
-            <p className="folderTitle">Projects</p>
+            <p className="folderTitle">{folderContent[0].folderName}</p>
           </div>
           <button className="folderClose" onClick={() => closeFolder()}>
             X

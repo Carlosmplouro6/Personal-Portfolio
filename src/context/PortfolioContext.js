@@ -8,7 +8,7 @@ export const PortfolioProvider = ({ children }) => {
   const [lastFolderContent, setLastFolderContent] = useState();
 
   const [openTxt, setopenTxt] = useState(false);
-  const [txtContent, setTxtContent] = useState("");
+  const [txtContent, setTxtContent] = useState();
 
   return (
     <PortfolioContext.Provider

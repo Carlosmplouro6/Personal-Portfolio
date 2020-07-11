@@ -8,12 +8,27 @@ const FolderContent = () => {
     setopenFolder,
     setFolderContent,
     setLastFolderContent,
+    setopenTxt,
+    setTxtContent,
   } = useContext(PortfolioContext);
+
+  function openNew(content) {
+    if (content.type === "folder") {
+      SetFolder(content.inside);
+    } else if (content.type === "txt") {
+      SetTxt(content.inside);
+    }
+  }
 
   function SetFolder(newFolderContent) {
     setLastFolderContent(folderContent);
     setopenFolder(true);
     setFolderContent(newFolderContent);
+  }
+
+  function SetTxt(txtContent) {
+    setopenTxt(true);
+    setTxtContent(txtContent);
   }
 
   return (
@@ -23,7 +38,7 @@ const FolderContent = () => {
           className="folderLines"
           key={index}
           onClick={() => {
-            SetFolder(content.inside);
+            openNew(content);
           }}
         >
           <div className="folderLineContainer">

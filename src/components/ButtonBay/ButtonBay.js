@@ -28,16 +28,32 @@ const ButtonBay = () => {
         onClick={() =>
           SetFolder([
             {
+              folderName: "Projects",
               type: "folder",
               name: "CoronaFocus",
               inside: [
                 {
+                  folderName: "CoronaFocus",
                   type: "txt",
                   name: "About.txt",
+                  inside: [
+                    {
+                      name: "About",
+                      txt:
+                        "This is a website that's using a public API to compare the Covid19 cases per country.",
+                    },
+                  ],
                 },
                 {
                   type: "txt",
                   name: "Stack.txt",
+                  inside: [
+                    {
+                      name: "Stack",
+                      txt:
+                        "Built using html css and javascript, using chartjs for charting needs",
+                    },
+                  ],
                 },
               ],
             },
@@ -46,18 +62,39 @@ const ButtonBay = () => {
               name: "Consequat",
               inside: [
                 {
+                  folderName: "Consequat",
                   type: "txt",
                   name: "About.txt",
+                  inside: [
+                    {
+                      name: "About",
+                      txt:
+                        "This is a try project for react, built using a recipie API, its my first try at using react and i loved it.",
+                    },
+                  ],
                 },
                 {
                   type: "txt",
                   name: "Stack.txt",
+                  inside: [
+                    {
+                      name: "Stack",
+                      txt: "The whole stack is React only",
+                    },
+                  ],
                 },
               ],
             },
             {
               type: "txt",
               name: "LourixPlans",
+              inside: [
+                {
+                  name: "LourixPlans",
+                  txt:
+                    "Lourix is a company that focus on building great games for better communities",
+                },
+              ],
             },
           ])
         }
@@ -87,75 +124,22 @@ const ButtonBay = () => {
         </svg>
         <p className="ButtonName">Projects</p>
       </div>
+
       <div
         className="Button"
         onClick={() =>
-          SetFolder([
+          SetTxt([
             {
-              type: "folder",
-              name: "CoronaFocus",
-              inside: [
-                {
-                  type: "txt",
-                  name: "About.txt",
-                },
-                {
-                  type: "txt",
-                  name: "Stack.txt",
-                },
-              ],
-            },
-            {
-              type: "folder",
-              name: "Consequat",
-              inside: [
-                {
-                  type: "txt",
-                  name: "About.txt",
-                },
-                {
-                  type: "txt",
-                  name: "Stack.txt",
-                },
-              ],
-            },
-            {
-              type: "txt",
-              name: "LourixPlans",
+              name: "projects",
+              txt: "this is a test TXT",
             },
           ])
         }
       >
         <svg
-          className="Folder"
-          fill="#000000"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 32 32"
           width="50px"
           height="50px"
-        >
-          <path
-            fill=" #e6cb73"
-            stroke="black"
-            strokeMiterlimit="10"
-            strokeWidth="1"
-            d="M26 4L6 4 6 27 18 29.5 18 27 24 27 24 15 26 13z"
-          />
-          <path
-            fill="none"
-            stroke="black"
-            strokeMiterlimit="10"
-            strokeWidth="1"
-            d="M18 27L18 17.5 16 15.5 16 6.5 6 4"
-          />
-        </svg>
-        <p className="ButtonName">Projects</p>
-      </div>
-      <div className="Button" onClick={() => SetTxt("Hello this is a TXT")}>
-        <svg
-          width="50px"
-          height="50px"
-          enable-background="new 0 0 128 170"
+          enableBackground="new 0 0 128 170"
           version="1.1"
           viewBox="0 0 128 170"
         >

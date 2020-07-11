@@ -8,13 +8,14 @@
       -ms-flex-direction: column;
           flex-direction: column;
   border: 1px rgba(95, 95, 95, 0.692) solid;
+  color: black;
   z-index: 2;
 }
 
 .txtTopBar {
   width: 100%;
   height: 2rem;
-  background-color: #cacaca;
+  background-color: #d6d6d6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,8 +28,13 @@
   z-index: 2;
 }
 
+.txtTopBar .txtIconTop {
+  margin-left: 0.5rem;
+  width: 1.2rem;
+}
+
 .txtTopBar .txtTitle {
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 
 .txtTopBar .txtClose {
@@ -48,35 +54,21 @@
 
 .txtFullDownBox {
   width: 100%;
-  height: 56vh;
+  height: 65vh;
   background-color: white;
   z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.txtMainContent {
-  width: 80%;
-  height: 90%;
-  color: black;
 }
 
 .txtBottomBar {
   width: 100%;
   height: 1.5rem;
-  background-color: #cacaca;
+  background-color: #e2e2e2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 2;
 }
 /*# sourceMappingURL=Txt.css.map */

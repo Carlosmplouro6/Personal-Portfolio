@@ -59,4 +59,15 @@
   width: 60vw;
   height: 60vh;
 }
+
+.ScreenTxt {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: NameDiv;
+  position: absolute;
+  left: -20vw;
+  margin-top: 1rem;
+  width: 40vw;
+  height: 60vh;
+}
 /*# sourceMappingURL=Screen.css.map */

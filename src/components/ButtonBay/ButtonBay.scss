@@ -1,7 +1,7 @@
 .ButtonContainer {
   padding-top: 1.5vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   .Button {
     display: flex;
     flex-direction: column;
