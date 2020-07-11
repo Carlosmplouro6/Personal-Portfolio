@@ -1,0 +1,57 @@
+.outsideTxt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px rgba(95, 95, 95, 0.692) solid;
+  z-index: 2;
+}
+
+.txtTopBar {
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+
+  .txtTitle {
+    margin-left: 4rem;
+  }
+
+  .txtClose {
+    background-color: transparent;
+    color: rgb(46, 46, 46);
+    border: transparent;
+    margin-right: 0.5rem;
+    padding: 0.3rem;
+    padding-top: 0.3rem;
+  }
+}
+.leftTxtTopbar {
+  display: flex;
+}
+
+.txtFullDownBox {
+  width: 100%;
+  height: 56vh;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.txtMainContent {
+  width: 80%;
+  height: 90%;
+  color: black;
+}
+
+.txtBottomBar {
+  width: 100%;
+  height: 1.5rem;
+  background-color: rgb(202, 202, 202);
+  display: flex;
+  align-items: center;
+}

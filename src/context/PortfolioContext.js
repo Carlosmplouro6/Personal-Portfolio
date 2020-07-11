@@ -7,6 +7,9 @@ export const PortfolioProvider = ({ children }) => {
   const [folderContent, setFolderContent] = useState([]);
   const [lastFolderContent, setLastFolderContent] = useState();
 
+  const [openTxt, setopenTxt] = useState(false);
+  const [txtContent, setTxtContent] = useState("");
+
   return (
     <PortfolioContext.Provider
       value={{
@@ -16,6 +19,10 @@ export const PortfolioProvider = ({ children }) => {
         setFolderContent,
         lastFolderContent,
         setLastFolderContent,
+        openTxt,
+        setopenTxt,
+        txtContent,
+        setTxtContent,
       }}
     >
       {children}

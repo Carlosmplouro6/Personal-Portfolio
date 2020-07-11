@@ -6,7 +6,7 @@ import Txt from "../Txt/Txt";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Screen = () => {
-  const { openFolder } = useContext(PortfolioContext);
+  const { openFolder, openTxt } = useContext(PortfolioContext);
 
   return (
     <div className="Screen">
@@ -15,7 +15,7 @@ const Screen = () => {
           <Folder />
         </div>
       ) : null}
-      {openFolder ? (
+      {openTxt ? (
         <div className="ScreenTxt">
           <Txt />
         </div>
