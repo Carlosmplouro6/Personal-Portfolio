@@ -84,11 +84,11 @@ const Screen = () => {
         <h1 className="DevName">Carlos Louro</h1>
         <p
           href=""
-          class="typewrite"
+          className="typewrite"
           data-period="2000"
           data-type='[ "Web Developer", "FullStack Developer", "FrontEnd Developer", "BackEnd Developer" ]'
         >
-          <span class="wrap"></span>
+          <span className="wrap"></span>
         </p>
       </div>
       <div className="ButtonBay">

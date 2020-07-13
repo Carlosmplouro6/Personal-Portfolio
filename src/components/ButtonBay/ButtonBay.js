@@ -146,6 +146,32 @@ const ButtonBay = () => {
 
         <p className="ButtonName">LinkedIn</p>
       </a>
+
+      <div
+        className="Button"
+        onClick={() =>
+          SetTxt([
+            {
+              name: "Technologies",
+              txt: (
+                <>
+                  <p>javascript</p>
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>React</p>
+                  <p>Node.js</p>
+                  <p>Firebase</p>
+                  <p>Github</p>
+                </>
+              ),
+            },
+          ])
+        }
+      >
+        <img src={txtIcon} alt="" />
+
+        <p className="ButtonName">Technologies</p>
+      </div>
     </div>
   );
 };

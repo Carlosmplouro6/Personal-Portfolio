@@ -7,10 +7,12 @@
     color: white;
   }
   .Button {
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     width: 3rem;
     cursor: pointer;
+    align-items: center;
     .ButtonName {
       margin: 0;
       margin-left: 5px;
