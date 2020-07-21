@@ -34,17 +34,36 @@ const FolderContent = () => {
   return (
     <div>
       {folderContent.map((content, index) => (
-        <div
-          className="folderLines"
-          key={index}
-          onClick={() => {
-            openNew(content);
-          }}
-        >
-          <div className="folderLineContainer">
-            <div className={content.type}></div>
-            <div className="subfolderName">{content.name}</div>
-          </div>
+        <div>
+          {content.link ? (
+            <div
+              className="folderLines"
+              key={index}
+              onClick={() => {
+                openNew(content);
+              }}
+            >
+              <a target="_blank" rel="noopener noreferrer" href={content.link}>
+                <div className="folderLineContainer">
+                  <div className={content.type}></div>
+                  <div className="subfolderName">{content.name}</div>
+                </div>
+              </a>
+            </div>
+          ) : (
+            <div
+              className="folderLines"
+              key={index}
+              onClick={() => {
+                openNew(content);
+              }}
+            >
+              <div className="folderLineContainer">
+                <div className={content.type}></div>
+                <div className="subfolderName">{content.name}</div>
+              </div>
+            </div>
+          )}
         </div>
       ))}
     </div>

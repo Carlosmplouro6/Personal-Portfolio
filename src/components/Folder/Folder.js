@@ -3,7 +3,7 @@ import "./Folder.css";
 import { PortfolioContext } from "../../context/PortfolioContext";
 import FolderContent from "../FolderContent/FolderContent";
 
-import leftArrow from "../../imgs/leftArrow.png";
+import leftArrow from "../../imgs/leftArrow.svg";
 
 const Folder = () => {
   const {

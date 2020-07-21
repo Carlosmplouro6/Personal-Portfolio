@@ -1,5 +1,6 @@
 .folderLines {
   width: 100%;
+  cursor: pointer;
 }
 
 .folderLines .folderLineContainer:hover {
@@ -16,6 +17,7 @@
 
 .subfolderName {
   width: 100%;
+  padding-left: 0.3rem;
 }
 
 .folder {
@@ -30,5 +32,25 @@
   background-size: cover;
   width: 1.3rem;
   height: 1.3rem;
+}
+
+.github {
+  background-image: url(../../imgs/GithubIcon.svg);
+  background-size: cover;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.1rem;
+}
+
+.link {
+  background-image: url(../../imgs/linkIcon.svg);
+  background-size: cover;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=FolderContent.css.map */

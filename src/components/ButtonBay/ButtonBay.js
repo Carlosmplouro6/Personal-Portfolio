@@ -55,10 +55,27 @@ const ButtonBay = () => {
                   inside: [
                     {
                       name: "Stack",
-                      txt:
-                        "Built using html css and javascript, using chartjs for charting needs",
+                      txt: (
+                        <>
+                          <p>javascript</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>SCSS</p>
+                          <p>Chart.js</p>
+                        </>
+                      ),
                     },
                   ],
+                },
+                {
+                  type: "github",
+                  name: "Source Code",
+                  link: "https://github.com/Carlosmplouro6/CoronaFocus",
+                },
+                {
+                  type: "link",
+                  name: "Page Link",
+                  link: "https://corona-focus.pt/",
                 },
               ],
             },
@@ -115,7 +132,7 @@ const ButtonBay = () => {
             {
               name: "About Me",
               txt:
-                "Hello, welcome to my portfolio my name is Carlos Louro im portuguese and i have a degree in biomedical technologies, i love programming and i am used to creating fullstack websites and games. ",
+                "Hello, welcome to my portfolio my name is Carlos Louro im portuguese and i have a degree in biomedical technologies, i love programming and i love creating fullstack websites and games. ",
             },
           ])
         }
@@ -140,7 +157,7 @@ const ButtonBay = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="Button"
-        href="https://github.com/Carlosmplouro6"
+        href="https://www.linkedin.com/in/carlos-louro-a3a1a61a7/"
       >
         <img className="" src={linkedinIcon} alt="" />
 
@@ -158,6 +175,7 @@ const ButtonBay = () => {
                   <p>javascript</p>
                   <p>HTML</p>
                   <p>CSS</p>
+                  <p>SCSS</p>
                   <p>React</p>
                   <p>Node.js</p>
                   <p>Firebase</p>
