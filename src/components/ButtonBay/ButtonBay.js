@@ -45,7 +45,7 @@ const ButtonBay = () => {
                     {
                       name: "About",
                       txt:
-                        "This is a website that's using a public API to compare the Covid19 cases per country.",
+                        "This is a website that's using a public API to compare the Covid19 cases per country, it was my first try at building something around a API, i quickly fell in love with API's and json and the power that comes with it. I also took advantage of this website to learn how domain names work and to oficially get my first one, it was a really fun project, if i was able to change something around would be to prepare my design before starting to code, being the design the part i dislike the most of the project. Overall it was a really fun project and i learned alot with it, the project is also fully responsive.",
                     },
                   ],
                 },
