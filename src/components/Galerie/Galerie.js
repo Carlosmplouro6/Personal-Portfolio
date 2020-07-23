@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 import "./Galerie.css";
-import txtIcon from "../../imgs/TxtIcon.svg";
+import imageIcon from "../../imgs/imageIcon.svg";
 const Galerie = () => {
   const { setopenGalerie, galerieContent } = useContext(PortfolioContext);
 
@@ -15,7 +15,7 @@ const Galerie = () => {
       <div className="outsideGalerie">
         <div className="GalerieTopBar">
           <div className="leftGalerieTopbar">
-            <img className="GalerieIconTop" src={txtIcon} alt="" />
+            <img className="GalerieIconTop" src={imageIcon} alt="" />
             <p className="GalerieTitle">Images - {galerieContent.name}</p>
           </div>
           <button className="GalerieClose" onClick={() => closeGalerie()}>

@@ -49,6 +49,13 @@
   height: 1.3rem;
 }
 
+.image {
+  background-image: url(../../imgs/imageIcon.svg);
+  background-size: cover;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
 a {
   text-decoration: none;
   color: white;
