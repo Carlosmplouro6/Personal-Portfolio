@@ -44,6 +44,11 @@
   z-index: 2;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  a {
+    margin-left: 0.5rem;
+    color: black;
+    text-decoration: underline black;
+  }
 }
 
 .txtBottomBar {

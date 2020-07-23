@@ -196,6 +196,42 @@ const ButtonBay = () => {
 
         <p className="ButtonName">Technologies</p>
       </div>
+      <div
+        className="Button"
+        onClick={() =>
+          SetTxt([
+            {
+              name: "Contact Me",
+              txt: (
+                <>
+                  <p>
+                    Feel free to contact me for any reason at all, be it work
+                    related or if you just want to talk with me about a cool new
+                    framework you have found out.
+                  </p>
+                  <p>You can follow any of the following methods:</p>
+                  <p>
+                    Email:
+                    <a href="mailto:carlosmplouro6@gmail.com">
+                      carlosmplouro6@gmail.com
+                    </a>
+                  </p>
+                  <p>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/carlos-louro-a3a1a61a7/">
+                      Carlos Louro
+                    </a>
+                  </p>
+                </>
+              ),
+            },
+          ])
+        }
+      >
+        <img src={txtIcon} alt="" />
+
+        <p className="ButtonName">ContactMe</p>
+      </div>
     </div>
   );
 };

@@ -61,6 +61,13 @@
   padding-right: 0.5rem;
 }
 
+.txtFullDownBox a {
+  margin-left: 0.5rem;
+  color: black;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
 .txtBottomBar {
   width: 100%;
   height: 1.5rem;
