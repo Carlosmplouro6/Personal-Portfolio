@@ -10,6 +10,8 @@ const FolderContent = () => {
     setLastFolderContent,
     setopenTxt,
     setTxtContent,
+    setopenGalerie,
+    setGalerieContent,
   } = useContext(PortfolioContext);
 
   function openNew(content) {
@@ -17,6 +19,9 @@ const FolderContent = () => {
       SetFolder(content.inside);
     } else if (content.type === "txt") {
       SetTxt(content.inside);
+    } else if (content.type === "image") {
+      console.log(content);
+      SetGalerie(content);
     }
   }
 
@@ -31,10 +36,15 @@ const FolderContent = () => {
     setTxtContent(txtContent);
   }
 
+  function SetGalerie(galerieContent) {
+    setopenGalerie(true);
+    setGalerieContent(galerieContent);
+  }
+
   return (
     <div>
       {folderContent.map((content, index) => (
-        <div>
+        <div key={index}>
           {content.link ? (
             <div
               className="folderLines"

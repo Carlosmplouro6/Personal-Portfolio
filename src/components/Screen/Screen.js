@@ -3,10 +3,11 @@ import "./Screen.css";
 import ButtonBay from "../ButtonBay/ButtonBay";
 import Folder from "../Folder/Folder";
 import Txt from "../Txt/Txt";
+import Galerie from "../Galerie/Galerie";
 import { PortfolioContext } from "../../context/PortfolioContext";
 
 const Screen = () => {
-  const { openFolder, openTxt } = useContext(PortfolioContext);
+  const { openFolder, openTxt, openGalerie } = useContext(PortfolioContext);
 
   var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
@@ -78,6 +79,11 @@ const Screen = () => {
       {openTxt ? (
         <div className="ScreenTxt">
           <Txt />
+        </div>
+      ) : null}
+      {openGalerie ? (
+        <div className="ScreenTxt">
+          <Galerie />
         </div>
       ) : null}
       <div className="NameDiv">

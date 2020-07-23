@@ -5,6 +5,7 @@ import folderIcon from "../../imgs/FolderIcon.svg";
 import txtIcon from "../../imgs/TxtIcon.svg";
 import githubIcon from "../../imgs/GithubIcon.svg";
 import linkedinIcon from "../../imgs/LinkedinIcon.svg";
+import CoronaFocus from "../../imgs/CoronaFocus.png";
 
 import { PortfolioContext } from "../../context/PortfolioContext";
 
@@ -66,6 +67,11 @@ const ButtonBay = () => {
                       ),
                     },
                   ],
+                },
+                {
+                  type: "image",
+                  name: "Devices Image",
+                  image: CoronaFocus,
                 },
                 {
                   type: "github",

@@ -10,6 +10,9 @@ export const PortfolioProvider = ({ children }) => {
   const [openTxt, setopenTxt] = useState(false);
   const [txtContent, setTxtContent] = useState();
 
+  const [openGalerie, setopenGalerie] = useState(false);
+  const [galerieContent, setGalerieContent] = useState();
+
   return (
     <PortfolioContext.Provider
       value={{
@@ -23,6 +26,10 @@ export const PortfolioProvider = ({ children }) => {
         setopenTxt,
         txtContent,
         setTxtContent,
+        openGalerie,
+        setopenGalerie,
+        galerieContent,
+        setGalerieContent,
       }}
     >
       {children}
