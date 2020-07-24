@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.0f009358.chunk.css",
+    "main.css": "/Personal-Portfolio/static/css/main.913088a6.chunk.css",
     "main.js": "/Personal-Portfolio/static/js/main.eb6db7cc.chunk.js",
     "main.js.map": "/Personal-Portfolio/static/js/main.eb6db7cc.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.4236d556.js",
@@ -8,9 +8,9 @@
     "static/js/2.6841ab25.chunk.js": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js",
     "static/js/2.6841ab25.chunk.js.map": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js.map",
     "index.html": "/Personal-Portfolio/index.html",
-    "precache-manifest.dba9a7d48777aa965bce134e3c9281d0.js": "/Personal-Portfolio/precache-manifest.dba9a7d48777aa965bce134e3c9281d0.js",
+    "precache-manifest.7c7f6971450c89fdf95215da51c58930.js": "/Personal-Portfolio/precache-manifest.7c7f6971450c89fdf95215da51c58930.js",
     "service-worker.js": "/Personal-Portfolio/service-worker.js",
-    "static/css/main.0f009358.chunk.css.map": "/Personal-Portfolio/static/css/main.0f009358.chunk.css.map",
+    "static/css/main.913088a6.chunk.css.map": "/Personal-Portfolio/static/css/main.913088a6.chunk.css.map",
     "static/js/2.6841ab25.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js.LICENSE.txt",
     "static/media/Consequat.png": "/Personal-Portfolio/static/media/Consequat.3de414a1.png",
     "static/media/CoronaFocus.png": "/Personal-Portfolio/static/media/CoronaFocus.8f70a52a.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.4236d556.js",
     "static/js/2.6841ab25.chunk.js",
-    "static/css/main.0f009358.chunk.css",
+    "static/css/main.913088a6.chunk.css",
     "static/js/main.eb6db7cc.chunk.js"
   ]
 }
