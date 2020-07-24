@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.171c3e2e.chunk.css",
-    "main.js": "/static/js/main.f1b0c9e5.chunk.js",
-    "main.js.map": "/static/js/main.f1b0c9e5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e68119ad.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e68119ad.js.map",
-    "static/js/2.6841ab25.chunk.js": "/static/js/2.6841ab25.chunk.js",
-    "static/js/2.6841ab25.chunk.js.map": "/static/js/2.6841ab25.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4fbbde5ece77ef12e15e9d24e57c617f.js": "/precache-manifest.4fbbde5ece77ef12e15e9d24e57c617f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.171c3e2e.chunk.css.map": "/static/css/main.171c3e2e.chunk.css.map",
-    "static/js/2.6841ab25.chunk.js.LICENSE.txt": "/static/js/2.6841ab25.chunk.js.LICENSE.txt",
-    "static/media/Consequat.png": "/static/media/Consequat.3de414a1.png",
-    "static/media/CoronaFocus.png": "/static/media/CoronaFocus.8f70a52a.png",
-    "static/media/FolderContent.css": "/static/media/linkIcon.33513ff4.svg",
-    "static/media/LinkedinIcon.svg": "/static/media/LinkedinIcon.113511bd.svg",
-    "static/media/MonitorPortfolioImproved.png": "/static/media/MonitorPortfolioImproved.8feb412f.png",
-    "static/media/leftArrow.svg": "/static/media/leftArrow.a2c5e63c.svg",
-    "static/media/segoe-ui.otf": "/static/media/segoe-ui.c4b43d1f.otf"
+    "main.css": "/Personal-Portfolio/static/css/main.0f009358.chunk.css",
+    "main.js": "/Personal-Portfolio/static/js/main.eb6db7cc.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.eb6db7cc.chunk.js.map",
+    "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.4236d556.js",
+    "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.4236d556.js.map",
+    "static/js/2.6841ab25.chunk.js": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js",
+    "static/js/2.6841ab25.chunk.js.map": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js.map",
+    "index.html": "/Personal-Portfolio/index.html",
+    "precache-manifest.dba9a7d48777aa965bce134e3c9281d0.js": "/Personal-Portfolio/precache-manifest.dba9a7d48777aa965bce134e3c9281d0.js",
+    "service-worker.js": "/Personal-Portfolio/service-worker.js",
+    "static/css/main.0f009358.chunk.css.map": "/Personal-Portfolio/static/css/main.0f009358.chunk.css.map",
+    "static/js/2.6841ab25.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.6841ab25.chunk.js.LICENSE.txt",
+    "static/media/Consequat.png": "/Personal-Portfolio/static/media/Consequat.3de414a1.png",
+    "static/media/CoronaFocus.png": "/Personal-Portfolio/static/media/CoronaFocus.8f70a52a.png",
+    "static/media/FolderContent.css": "/Personal-Portfolio/static/media/linkIcon.33513ff4.svg",
+    "static/media/LinkedinIcon.svg": "/Personal-Portfolio/static/media/LinkedinIcon.113511bd.svg",
+    "static/media/MonitorPortfolioImproved.png": "/Personal-Portfolio/static/media/MonitorPortfolioImproved.8feb412f.png",
+    "static/media/leftArrow.svg": "/Personal-Portfolio/static/media/leftArrow.a2c5e63c.svg",
+    "static/media/segoe-ui.otf": "/Personal-Portfolio/static/media/segoe-ui.c4b43d1f.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e68119ad.js",
+    "static/js/runtime-main.4236d556.js",
     "static/js/2.6841ab25.chunk.js",
-    "static/css/main.171c3e2e.chunk.css",
-    "static/js/main.f1b0c9e5.chunk.js"
+    "static/css/main.0f009358.chunk.css",
+    "static/js/main.eb6db7cc.chunk.js"
   ]
 }
