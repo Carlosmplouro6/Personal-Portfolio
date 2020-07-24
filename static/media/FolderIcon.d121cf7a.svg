@@ -1,0 +1,23 @@
+        <svg
+          className="Folder"
+          fill="#000000"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 30 30"
+          width="100px"
+          height="100px"
+        >
+          <path
+            fill="#e6cb73"
+            stroke="black"
+            strokeMiterlimit="10"
+            strokeWidth="1"
+            d="M26 4L6 4 6 27 18 29.5 18 27 24 27 24 15 26 13z"
+          />
+          <path
+            fill="none"
+            stroke="black"
+            strokeMiterlimit="10"
+            strokeWidth="1"
+            d="M18 27L18 17.5 16 15.5 16 6.5 6 4"
+          />
+        </svg>
