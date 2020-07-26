@@ -50,9 +50,7 @@ const Folder = () => {
             <FolderContent />
           </div>
         </div>
-        <div className="folderBottomBar">
-          <div className="folderBottomBarNItems"> x items |</div>
-        </div>
+        <div className="folderBottomBar"></div>
       </div>
     </div>
   );

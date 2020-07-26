@@ -46,8 +46,22 @@ const ButtonBay = () => {
                   inside: [
                     {
                       name: "About",
-                      txt:
-                        "This is a website that's using a public API to compare the Covid19 cases per country, it was my first try at building something around a API, i quickly fell in love with API's and json and the power that comes with it. I also took advantage of this website to learn how domain names work and to oficially get my first one, it was a really fun project, if i was able to change something around would be to prepare my design before starting to code, being the design the part i dislike the most of the project. Overall it was a really fun project and i learned alot with it, the project is also fully responsive.",
+                      txt: (
+                        <p>
+                          This is a website that's using a public API to compare
+                          the Covid19 cases per country, it was my first try at
+                          building something around a API, i quickly fell in
+                          love with API's and json and the power that comes with
+                          it. I also took advantage of this website to learn how
+                          domain names work and to oficially get my first one,
+                          it was a really fun project, if i was able to change
+                          something around would be to prepare my design before
+                          starting to code, being the design the part i dislike
+                          the most of the project. Overall it was a really fun
+                          project and i learned alot with it, the project is
+                          also fully responsive.
+                        </p>
+                      ),
                     },
                   ],
                 },
@@ -97,8 +111,20 @@ const ButtonBay = () => {
                   inside: [
                     {
                       name: "About",
-                      txt:
-                        "This is my first try at building a webapp with react, and honestly the moment i started using it i fell in love with React and everything it makes possible, one of my favorite things to learn at the moment and it was a real eye opening about the possibilities it brings, this website was build using only funcional components with react hooks and the usage of a external public API really helped my understand some of the inner workings of react and how to piece it all together.",
+                      txt: (
+                        <p>
+                          This is my first try at building a webapp with react,
+                          and honestly the moment i started using it i fell in
+                          love with React and everything it makes possible, one
+                          of my favorite things to learn at the moment and it
+                          was a real eye opening about the possibilities it
+                          brings, this website was build using only funcional
+                          components with react hooks and the usage of a
+                          external public API really helped my understand some
+                          of the inner workings of react and how to piece it all
+                          together.
+                        </p>
+                      ),
                     },
                   ],
                 },
@@ -134,6 +160,65 @@ const ButtonBay = () => {
                   type: "link",
                   name: "Consequat Page Link",
                   link: "https://carlosmplouro6.github.io/consequat/",
+                },
+              ],
+            },
+            {
+              type: "folder",
+              name: "Portfolio",
+              inside: [
+                {
+                  folderName: "PortFolio",
+                  type: "txt",
+                  name: "About the Portfolio.txt",
+                  inside: [
+                    {
+                      name: "About the Portfolio.txt",
+                      txt: (
+                        <p>
+                          As you might imagine, this is the portfolio you are
+                          right now, it was all built using React because i
+                          really enjoy the whole workflow and what it makes
+                          possible, i wanted to make a diferent portfolio from
+                          most of the ones i found online, i had this idea and i
+                          tought it would be a fun thing to play around with, so
+                          i started building, at the moment i really like the
+                          portfolio, how it looks and the features that it has,
+                          i will be adding more features and some more fun side
+                          parts in the future in a attempt to improve upon it
+                          and make it more similar to a dark theme windows OS.
+                          As a fun sidejoke the monitor where everything is
+                          happening its actually my real monitor the one i use
+                          the most. Both the monitor picture and my background
+                          image (the pretty boy) were taken by my brother (Luis
+                          Louro) who is a photographer.
+                        </p>
+                      ),
+                    },
+                  ],
+                },
+                {
+                  type: "txt",
+                  name: "Portfolio Stack.txt",
+                  inside: [
+                    {
+                      name: "Portfolio Stack",
+                      txt: (
+                        <>
+                          <p>React</p>
+                          <p>javascript</p>
+                          <p>HTML</p>
+                          <p>CSS</p>
+                          <p>SCSS</p>
+                        </>
+                      ),
+                    },
+                  ],
+                },
+                {
+                  type: "github",
+                  name: "Portfolio Source Code",
+                  link: "https://github.com/Carlosmplouro6/Personal-Portfolio",
                 },
               ],
             },
