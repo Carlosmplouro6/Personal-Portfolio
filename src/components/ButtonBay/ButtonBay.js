@@ -187,11 +187,11 @@ const ButtonBay = () => {
                           i will be adding more features and some more fun side
                           parts in the future in a attempt to improve upon it
                           and make it more similar to a dark theme windows OS.
-                          As a fun sidejoke the monitor where everything is
-                          happening its actually my real monitor the one i use
-                          the most. Both the monitor picture and my background
-                          image (the pretty boy) were taken by my brother (Luis
-                          Louro) who is a photographer.
+                          As a fun side information the monitor where everything
+                          is happening its actually my real monitor the one i
+                          use the most. Both the monitor picture and my
+                          background image (the pretty boy) were taken by my
+                          brother (Luis Louro) who is a photographer.
                         </p>
                       ),
                     },
