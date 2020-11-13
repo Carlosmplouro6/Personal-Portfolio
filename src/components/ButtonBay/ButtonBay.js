@@ -324,6 +324,9 @@ const ButtonBay = () => {
                   <p>SCSS</p>
                   <p>React</p>
                   <p>Node.js</p>
+                  <p>Express</p>
+                  <p>MYSQL</p>
+                  <p>MongoDB</p>
                   <p>Firebase</p>
                   <p>Github</p>
                 </>
@@ -335,6 +338,29 @@ const ButtonBay = () => {
         <img src={txtIcon} alt="" />
 
         <p className="ButtonName">Technologies</p>
+      </div>
+      <div
+        className="Button"
+        onClick={() =>
+          SetTxt([
+            {
+              name: "Experience",
+              txt: (
+                <>
+                  <p>Experience outside WebDev:</p>
+                  <p>-Macdonalds for 1 year</p>
+                  <p>-Factory worker for 1 year</p>
+                  <p>Experience in WebDev:</p>
+                  <p>-FullStack at GlitchGlobal Since 09/2020</p>
+                </>
+              ),
+            },
+          ])
+        }
+      >
+        <img src={txtIcon} alt="" />
+
+        <p className="ButtonName">Experience</p>
       </div>
       <div
         className="Button"
